@@ -1,0 +1,21 @@
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\bin\Debug\net5.0-windows\Storefront Management System.exe
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\bin\Debug\net5.0-windows\Storefront Management System.deps.json
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\bin\Debug\net5.0-windows\Storefront Management System.runtimeconfig.json
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\bin\Debug\net5.0-windows\Storefront Management System.runtimeconfig.dev.json
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\bin\Debug\net5.0-windows\Storefront Management System.dll
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\bin\Debug\net5.0-windows\ref\Storefront Management System.dll
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\bin\Debug\net5.0-windows\Storefront Management System.pdb
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront Management System.csproj.AssemblyReference.cache
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront_Management_System.BEGamesLogin.resources
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront Management System.csproj.GenerateResource.cache
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront Management System.AssemblyInfoInputs.cache
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront Management System.AssemblyInfo.cs
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront Management System.csproj.CoreCompileInputs.cache
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront Management System.dll
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\ref\Storefront Management System.dll
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront Management System.pdb
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront Management System.genruntimeconfig.cache
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront_Management_System.OwnerScreen.resources
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront_Management_System.EmployeeScreen.resources
+C:\Users\zacha\Desktop\StoreFront App\Storefront Management System\obj\Debug\net5.0-windows\Storefront_Management_System.ManagerScreen.resources
