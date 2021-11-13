@@ -5,10 +5,10 @@ This program is designed to emulate how a store front works.  In the end it will
 # Current languages being used
 C# and XML
 
-Currently the features that are currently in place are:
+# Currently the features that are currently in place are:
 - Users can log in to the system and load into their various screens.
 
-Planned features are:
+# Planned features are:
 - employees, managers, and owners will be able to sell games
 - sales tracking based on the individual employee
 - warnings triggered based on ESRB rating of games
