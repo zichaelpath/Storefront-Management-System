@@ -27,6 +27,7 @@ namespace Storefront_Management_System
             bool isOwner = false;
             bool isManager = false;
             bool isEmployee = false;
+
             XmlDocument document = new XmlDocument();
             document.Load("C:\\Users\\zacha\\Desktop\\StoreFront App\\Storefront Management System\\Employee.xml");
             XmlNodeList employeeUserNames = document.GetElementsByTagName("UserName");

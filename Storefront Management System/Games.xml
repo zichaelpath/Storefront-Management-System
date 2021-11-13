@@ -4,10 +4,7 @@
     <Title>Halo 5</Title>
     <ESRB>M</ESRB>
     <ReleaseDate>2015</ReleaseDate>
-    <Platforms>
-      <Platform0>Xbox One</Platform0>
-      <Platform1>Xbox Series X/S</Platform1>
-    </Platforms>
+    <Platforms>Xbox One,Xbox Series X/S</Platforms>
     <IDVerification>Yes</IDVerification>
     <Publisher>343 Industries</Publisher>
     <Stock>10</Stock>
@@ -17,10 +14,7 @@
     <Title>God of War</Title>
     <ESRB>M</ESRB>
     <ReleaseDate>2018</ReleaseDate>
-    <Platforms>
-      <Platform0>Playstation 4</Platform0>
-      <Platform1>Playstation 4</Platform1>
-    </Platforms>
+    <Platforms>Playstation 4,Playstation 5</Platforms>
     <IDVerification>Yes</IDVerification>
     <Publisher>Sony Santa Monica</Publisher>
     <Stock>10</Stock>
@@ -30,9 +24,7 @@
     <Title>Pokemon Sword</Title>
     <ESRB>E</ESRB>
     <ReleaseDate>2019</ReleaseDate>
-    <Platforms>
-      <Platform0>Nintendo Switch</Platform0>
-    </Platforms>
+    <Platforms>Nintendo Switch</Platforms>
     <IDVerification>No</IDVerification>
     <Publisher>Pokemon Company</Publisher>
     <Stock>20</Stock>
@@ -42,9 +34,7 @@
     <Title>Ratchet And Clank</Title>
     <ESRB>T</ESRB>
     <ReleaseDate>2020</ReleaseDate>
-    <Platforms>
-      <Platform0>Playstation 5</Platform0>
-    </Platforms>
+    <Platforms>Playstation 5</Platforms>
     <IDVerification>No</IDVerification>
     <Publisher>Insomniac Games</Publisher>
     <Stock>10</Stock>

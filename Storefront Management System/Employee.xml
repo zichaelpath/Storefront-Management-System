@@ -1,7 +1,6 @@
 <Staff>
   <Employee0>
     <Name>Zachary Shade</Name>
-    <Age>29</Age>
     <DateOfBirth>03-30-1967</DateOfBirth>
     <HireDate>03-30-1992</HireDate>
     <EmployeeNumber>1</EmployeeNumber>
@@ -15,4 +14,19 @@
     <PassWord>dracolych12</PassWord>
     <IsLoggedIn>True</IsLoggedIn>
   </Employee0>
+  <Employee1>
+    <Name>Kyle Bronflowski</Name>
+    <DateOfBirth>03-30-1997</DateOfBirth>
+    <HireDate>05-21-2012</HireDate>
+    <EmployeeNumber>2</EmployeeNumber>
+    <IsManager>True</IsManager>
+    <IsOwner>False</IsOwner>
+    <TotalNumberOfSales>0</TotalNumberOfSales>
+    <SalesThisMonth>0</SalesThisMonth>
+    <SalesThisYear>0</SalesThisYear>
+    <LastLoginDate>11-07-2021</LastLoginDate>
+    <UserName>kbronfi</UserName>
+    <PassWord>dragon12</PassWord>
+    <IsLoggedIn>False</IsLoggedIn>
+  </Employee1>
 </Staff>
