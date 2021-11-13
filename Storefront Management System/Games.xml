@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VideoGames>
+  <Game0>
+    <Title>Halo 5</Title>
+    <ESRB>M</ESRB>
+    <ReleaseDate>2015</ReleaseDate>
+    <Platforms>
+      <Platform0>Xbox One</Platform0>
+      <Platform1>Xbox Series X/S</Platform1>
+    </Platforms>
+    <IDVerification>Yes</IDVerification>
+    <Publisher>343 Industries</Publisher>
+    <Stock>10</Stock>
+    <Price>45.98</Price>
+  </Game0>
+  <Game1>
+    <Title>God of War</Title>
+    <ESRB>M</ESRB>
+    <ReleaseDate>2018</ReleaseDate>
+    <Platforms>
+      <Platform0>Playstation 4</Platform0>
+      <Platform1>Playstation 4</Platform1>
+    </Platforms>
+    <IDVerification>Yes</IDVerification>
+    <Publisher>Sony Santa Monica</Publisher>
+    <Stock>10</Stock>
+    <Price>69.99</Price>
+  </Game1>
+  <Game2>
+    <Title>Pokemon Sword</Title>
+    <ESRB>E</ESRB>
+    <ReleaseDate>2019</ReleaseDate>
+    <Platforms>
+      <Platform0>Nintendo Switch</Platform0>
+    </Platforms>
+    <IDVerification>No</IDVerification>
+    <Publisher>Pokemon Company</Publisher>
+    <Stock>20</Stock>
+    <Price>79.99</Price>
+  </Game2>
+  <Game3>
+    <Title>Ratchet And Clank</Title>
+    <ESRB>T</ESRB>
+    <ReleaseDate>2020</ReleaseDate>
+    <Platforms>
+      <Platform0>Playstation 5</Platform0>
+    </Platforms>
+    <IDVerification>No</IDVerification>
+    <Publisher>Insomniac Games</Publisher>
+    <Stock>10</Stock>
+    <Price>59.99</Price>
+  </Game3>
+</VideoGames>
