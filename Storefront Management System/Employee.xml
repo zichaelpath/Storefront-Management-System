@@ -1,5 +1,5 @@
 <Staff>
-  <Employee0>
+  <Employee>
     <Name>Zachary Shade</Name>
     <DateOfBirth>03-30-1967</DateOfBirth>
     <HireDate>03-30-1992</HireDate>
@@ -12,9 +12,9 @@
     <LastLoginDate>11-07-2021</LastLoginDate>
     <UserName>zshade1</UserName>
     <PassWord>dracolych12</PassWord>
-    <IsLoggedIn>True</IsLoggedIn>
-  </Employee0>
-  <Employee1>
+    <IsLoggedIn>False</IsLoggedIn>
+  </Employee>
+  <Employee>
     <Name>Kyle Bronflowski</Name>
     <DateOfBirth>03-30-1997</DateOfBirth>
     <HireDate>05-21-2012</HireDate>
@@ -28,5 +28,5 @@
     <UserName>kbronfi</UserName>
     <PassWord>dragon12</PassWord>
     <IsLoggedIn>False</IsLoggedIn>
-  </Employee1>
+  </Employee>
 </Staff>

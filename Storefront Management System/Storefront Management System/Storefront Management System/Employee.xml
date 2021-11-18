@@ -1,0 +1,17 @@
+<Staff>
+    <Employee>
+        <Name>Zachary Shade</Name>
+        <Age>29</Age>
+        <DateOfBirth>03-30-1967</DateOfBirth>
+        <HireDate>03-30-1992</HireDate>
+        <EmployeeNumber>1</EmployeeNumber>
+        <IsManager>False</IsManager>
+        <IsOwner>True</IsOwner>
+        <TotalNumberOfSales>0</TotalNumberOfSales>
+        <SalesThisMonth>0</SalesThisMonth>
+        <SalesThisYear>0</SalesThisYear>
+        <LastLoginDate>11-07-2021</LastLoginTime>
+        <UserName>zshade1</UserName>
+        <Password>dracolych12</Password>
+    </Employee>
+</Staff>
