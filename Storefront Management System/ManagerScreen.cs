@@ -15,6 +15,7 @@ namespace Storefront_Management_System
     {
         private XmlNode managerNode;
         private Employee manager;
+        private XmlDocument gamesDoc;
         public ManagerScreen(XmlNode xmlNode)
         {
             InitializeComponent();
@@ -23,22 +24,28 @@ namespace Storefront_Management_System
 
         private void ManagerScreen_Load(object sender, EventArgs e)
         {
-            XmlDocument gamesDoc = new XmlDocument();
+            gamesDoc = new XmlDocument();
             gamesDoc.Load("C:\\Users\\zacha\\Desktop\\StoreFront App\\Storefront Management System\\Games.xml");
-            XmlNodeList gameTitles = gamesDoc.GetElementsByTagName("Title");
-            XmlNodeList gameRatings = gamesDoc.GetElementsByTagName("ESRB");
-            XmlNodeList gameReleaseDates = gamesDoc.GetElementsByTagName("ReleaseDate");
-            XmlNodeList gamePlatforms = gamesDoc.GetElementsByTagName("Platforms");
+            XmlNodeList allGames = gamesDoc.SelectNodes("VideoGames/Game");
 
-            string empName = managerNode["Name"].InnerText;
-            bool isManager = managerNode["IsManager"].InnerText == "True" ? true : false;
-            bool isOwner = managerNode["IsOwner"].InnerText == "True" ? true : false;
-            DateTime hired = DateTime.Parse(managerNode["HireDate"].InnerText);
-            DateTime birth = DateTime.Parse(managerNode["DateOfBirth"].InnerText);
-            int empNumber = Convert.ToInt32(managerNode["EmployeeNumber"].InnerText);
-            bool loggedIn = managerNode["IsLoggedIn"].InnerText == "True" ? true : false;
 
-            manager = new Employee(empName, isManager, isOwner, empNumber, hired, birth, loggedIn, managerNode);
+
+            manager = new Employee( managerNode);
+            this.Text = manager.Name + " Management System";
+
+            foreach (XmlNode game in allGames)
+            {
+                string title = game["Title"].InnerText;
+                string releaseDate = game["ReleaseDate"].InnerText;
+                string esrb = game["ESRB"].InnerText;
+                string stock = game["Stock"].InnerText;
+                string price = game["Price"].InnerText;
+                string ageVerify = game["IDVerification"].InnerText;
+                string[] row = { title, releaseDate, esrb, stock, price, ageVerify };
+                dgvGameList.Rows.Add(row);
+            }
         }
+
+        
     }
 }

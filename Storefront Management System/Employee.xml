@@ -12,7 +12,7 @@
     <LastLoginDate>11-07-2021</LastLoginDate>
     <UserName>zshade1</UserName>
     <PassWord>dracolych12</PassWord>
-    <IsLoggedIn>False</IsLoggedIn>
+    <IsLoggedIn>True</IsLoggedIn>
   </Employee>
   <Employee>
     <Name>Kyle Bronflowski</Name>
@@ -27,6 +27,6 @@
     <LastLoginDate>11-07-2021</LastLoginDate>
     <UserName>kbronfi</UserName>
     <PassWord>dragon12</PassWord>
-    <IsLoggedIn>False</IsLoggedIn>
+    <IsLoggedIn>True</IsLoggedIn>
   </Employee>
 </Staff>

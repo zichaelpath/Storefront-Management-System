@@ -34,19 +34,19 @@ namespace Storefront_Management_System
             get { return isLoggedIn; }
         }
 
-        public Employee(string mpName, bool manager, bool owner, int empNo, DateTime hired, DateTime birth, bool loggedIn, XmlNode employee)
+        public Employee(XmlNode employee)
         {
-            name = mpName;
-            employeeNumber = empNo;
-            isManager = manager;
-            isOwner = owner;
+            employeeDetails = employee;
+            name = employeeDetails["Name"].InnerText;
+            employeeNumber = Convert.ToInt32(employeeDetails["EmployeeNumber"].InnerText);
+            isManager = employeeDetails["IsManager"].InnerText == "True" ? true : false;
+            isOwner = employeeDetails["IsOwner"].InnerText == "True" ? true : false;
             isEmployee = (!isManager && !isOwner);
-            hireDate = hired;
-            birthday = birth;
-            isLoggedIn = loggedIn;
-            employeeDetails = employee;
-            totalSales = employee["TotalNumberOfSales"].InnerText.ToString();
-            employeeDetails = employee;
+            lastLoginDate = DateTime.Today;
+            isLoggedIn = employeeDetails["IsLoggedIn"].InnerText == "True" ? true : false;
+            hireDate = DateTime.Parse(employeeDetails["HireDate"].InnerText);
+            birthday = DateTime.Parse(employeeDetails["DateOfBirth"].InnerText);
+            totalSales = employeeDetails["TotalNumberOfSales"].InnerText;
         }
 
         public bool isEmployeeOwner()
